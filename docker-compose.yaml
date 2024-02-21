@@ -1,6 +1,6 @@
 services:
   mybb:
-    image: mybb/mybb:latest
+    image: mybb/mybb
     volumes:
     - ${PWD}/mybb:/var/www/html:rw
 
